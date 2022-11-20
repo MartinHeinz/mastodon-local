@@ -119,6 +119,11 @@ curl -k -X POST \
 }
 ```
 
+## Limitations
+
+- No federation - can't search accounts/Toots from other instances
+- No full-text search - can't search Toots (but can search hashtags and local accounts)
+
 ### Resources
 
 - https://peterbabic.dev/blog/running-mastodon-with-docker-compose/
